@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'me@adamtarmstrong.com'
 
   spec.summary       = 'Build Axway Appcelerator Mobile Applications from within fastlane'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-ti_build_app"
+  # spec.homepage      = "https://github.com/adamtarmstrong/fastlane-plugin-ti_build_app"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
