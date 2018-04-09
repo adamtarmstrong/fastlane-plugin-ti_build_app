@@ -1,3 +1,5 @@
 lane :test do
-  ti_build_app
+  ti_build_app(
+    appc_cli: "appc run build --platform ios --target dist-adhoc --distribution-name 'implicitli, LLC. (G52GS5PAND)' --pp-uuid c6ea530d-70ea-5661-b013-beb4d25b2a7b --output-dir /dist"
+  )
 end
